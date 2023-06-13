@@ -139,7 +139,7 @@
 					"path": [
 						"api",
 						"auth",
-						"addproduct"
+						"getcashflows"
 					]
 				}
 			},
@@ -179,7 +179,7 @@
 					"path": [
 						"api",
 						"auth",
-						"addproduct"
+						"getcashflowbyid"
 					]
 				}
 			},
@@ -219,7 +219,7 @@
 					"path": [
 						"api",
 						"auth",
-						"addproduct"
+						"getcashflowbyDate"
 					]
 				}
 			},
