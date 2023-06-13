@@ -118,7 +118,7 @@
 						}
 					]
 				},
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -130,7 +130,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/auth/addproduct",
+					"raw": "http://localhost:8080/api/auth/getcashflows",
 					"protocol": "http",
 					"host": [
 						"localhost"
