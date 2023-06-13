@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-express-sequelize-postgresql-jwt-auth",
+  "name": "cashflow",
   "version": "1.0.0",
-  "description": "Simple CRUD projects using node js and postgres with jwt auth",
+  "description": "a simple api containing a small cash flow",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
     "postgresql",
     "jwt"
   ],
-  "author": "isr",
+  "author": "Bruno Paolo",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

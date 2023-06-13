@@ -1,28 +1,26 @@
-## Criar db imagem: 
+## create image db: 
 docker pull postgres
 
-## Listar imagens: 
+## List image: 
 docker images
 
-## Rodar container e exportar a porta:
+## run container, export, port:
 docker run --name fluxodb -e POSTGRES_PASSWORD=fluxodb -d -p 5432:5432 postgres
 
-## Verificar id container:
+## view id container:
 docker ps -a
 
-
-## Entrar no bash:
+## enter bash:
 docker exec -it ''id do container'' bash
 
-## Entrar no postgres: 
+## enter into postgres: 
 psql -U postgres
 
-## Criar base de dados: 
+## create base: 
 CREATE DATABASE fluxodb;
-- The table will automatically generated because this project was use sequalize
 
 ## Documentation
-This is an example of crud project using Node.js and postgres
+project using:
 
 - Node.js
 - Express.js
@@ -36,11 +34,11 @@ import the file into postman ./doc/Cash Flow.postman_collection.json
 
 
 ### How to run this project
+- git clone https://github.com/bpaolo/cashflow.git
 - npm install
 - npm start
 - the application will running on port 8080
-- Try to do a user registration, then sign in
-- Try to register
+
 
 
 
